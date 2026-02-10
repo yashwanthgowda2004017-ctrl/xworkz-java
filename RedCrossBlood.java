@@ -11,7 +11,7 @@ static void createDonarAccount(String emilId, int donorId, String firstName, Str
 	System.out.println("The confirmation of password is:" +confirmPassword);
 	}
 	
-public static void main(String[] args){
-	createDonarAccount("tarunbk@gamil.com", 12345, "tarun", "bk", "TBk",45678, "Tarun@34", "Tarun@34");
-}
+//public static void main(String[] args){
+//	createDonarAccount("tarunbk@gamil.com", 12345, "tarun", "bk", "TBk",45678, "Tarun@34", "Tarun@34");
+//}
 }

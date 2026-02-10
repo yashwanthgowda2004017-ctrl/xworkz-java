@@ -32,10 +32,7 @@
 	  
 		
 //using methods
-class Hotel{
-	public static void main(String[] args){
-		hotelDetails("Sri Annaporneshwari Hotel","Rajesh","Bhashyam circle","Bhashyam circle, BTM, Vijayanagar","Rajesh, Tarun, Lokesh");
-	}
+
 	static void hotelDetails(String name, String owner, String location, String branches, String managers){
 		System.out.println("The Name of Daba is:" +name);
 		System.out.println("The Owner name is:" +owner);

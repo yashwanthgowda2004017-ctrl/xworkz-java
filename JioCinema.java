@@ -32,9 +32,9 @@
 //Using methods 
 
 class JioCinema{
-	public static void main(String[] args){
-		JioCinemaDetails("Asur","Brahmastra","Asur","IPL","Chhota Bheem");
-	}
+	//public static void main(String[] args){
+	//	JioCinemaDetails("Asur","Brahmastra","Asur","IPL","Chhota Bheem");
+	//}
 	static void JioCinemaDetails(String jioCinemaOriginals, String movies, String webSeries, String sports, String kidsContents){
 		System.out.println("Jio Cinema Originals: "+jioCinemaOriginals);
 		System.out.println("Movies: "+movies);

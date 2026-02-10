@@ -29,9 +29,9 @@
 
 //using methods
 class HospitalManagement {
-	public static void main(String[] args){
-		hospitalDetails("City Care Hospital","DR.Ramesh","Bhashyam Circle","Cardiology, Neurology, Orthopedics","DR.Rajesh, DR.Kumar, DR.Ravi");
-	}
+	//public static void main(String[] args){
+		//hospitalDetails("City Care Hospital","DR.Ramesh","Bhashyam Circle","Cardiology, Neurology, Orthopedics","DR.Rajesh, DR.Kumar, DR.Ravi");
+	//}
 	static void hospitalDetails(String hospitalName, String chiefDoctor, String location, String departments, String doctors){
 		System.out.println("Hospital Name:" +hospitalName);
 		System.out.println("The Chief Doctor Name:" +chiefDoctor);

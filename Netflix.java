@@ -38,9 +38,9 @@
 //using methods 
 
 class Netflix{
-	public static void main(String[] args){
-		netflixDetails("Dark","Friends","Extraction","Bird Box","Our Planet");
-	}
+	//public static void main(String[] args){
+	//	netflixDetails("Dark","Friends","Extraction","Bird Box","Our Planet");
+	//}
 	static void netflixDetails(String thrillerShows, String comedyShows, String actionMovies, String horrorMovies, String documentaries){
 		System.out.println("Thriller Shows: "+thrillerShows);
 		System.out.println("Comedy Shows: "+comedyShows);

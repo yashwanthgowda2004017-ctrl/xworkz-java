@@ -47,9 +47,9 @@
 //using methods
 
 class OrionMall{
-    public static void main(String[] args){
-        OrionMallDetails("Zara","Nike","McDonalds","Croma","PVR Gold","Tanishq","Hamleys","Starbucks","Lakme","Reliance Smart","Crossword","Decathlon","Titan","Lenskart","Timezone","IKEA","Archies","Thomas Cook","Apple Store","Apple Service");
-    }
+    //public static void main(String[] args){
+      //  OrionMallDetails("Zara","Nike","McDonalds","Croma","PVR Gold","Tanishq","Hamleys","Starbucks","Lakme","Reliance //Smart","Crossword","Decathlon","Titan","Lenskart","Timezone","IKEA","Archies","Thomas Cook","Apple Store","Apple Service");
+  //  }
     static void OrionMallDetails(String clothingStores, String footwearStores, String foodCourts, String electronicsStores, String movieScreens, String jewelryStores, String kidsZones, String cafes, String salons, String supermarkets, String bookstores, String sportsStores, String watchStores, String eyewearStores, String gamingZones, String furnitureStores, String giftShops, String travelStores, String mobileStores, String serviceCenters){
         System.out.println("Clothing Stores: "+clothingStores);
         System.out.println("Footwear Stores: "+footwearStores);

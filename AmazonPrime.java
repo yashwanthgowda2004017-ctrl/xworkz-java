@@ -30,10 +30,6 @@
 
 //Using methods in java
 
-class AmazonPrime{
-	public static void main(String[] args){
-		AmazonPrimeDetails("Mirzapur","KGF","Panchayat","Chhota Bheem","The Test");
-	}
 	static void AmazonPrimeDetails(String primeOriginals, String actionMovies, String  comedyShows, String kidsShows, String  documentaries){
 		System.out.println("Prime Originals: "+primeOriginals);
 		System.out.println("Action Movies: "+actionMovies);
