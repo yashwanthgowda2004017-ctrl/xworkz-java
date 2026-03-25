@@ -1,28 +1,24 @@
-class PlayList{
- String[] songNames = new String[5];
- int index;
- 
- public boolean addSong(String song){
-   boolean isSongAdded=false;
-   if(song!=null && !song.isEmpty()){
-     songNames[index]=song;
-	 index++;
-	 isSongAdded=true;
-	 }
-	else{
-	  System.out.println("List is full");
-	  isSongAdded=false;
-	  }
-	 return isSongAdded;
-	}
- 
- public void getDetails(){
-   System.out.println("Second song of the list is:" +songNames[2]);
-   System.out.println("Fourth/Final song of the list is:" +songNames[4]);
-   }
-  
-  PlayList(){
-   System.out.println("PlayList Started........");
-   }
-   }
-   
+class PlayList {
+
+    private String songNames[] = new String[15];
+    int index;
+
+    public boolean addSong(String songName) {
+        boolean isSongAdded = false;
+
+        if (songName != null && !songName.isEmpty()) {
+            songNames[index] = songName;
+            index++;
+            isSongAdded = true;
+        } else {
+            System.out.println("Enter valid Song Name");
+        }
+
+        return isSongAdded;
+    }
+
+    public void getSongs() {
+        for (String songName : songNames)
+            System.out.println(songName);
+    }
+}
